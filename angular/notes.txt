@@ -1,0 +1,11 @@
+// Install Angular
+npm install -g @angular/cli
+
+// Create new project (called ngTest)
+ng new ngTest
+
+// Run project
+ng serve --open
+
+
+
