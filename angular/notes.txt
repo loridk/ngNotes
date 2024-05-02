@@ -7,5 +7,24 @@ ng new ngTest
 // Run project
 ng serve --open
 
+// Create component (called Header)
+ng generate component Header
 
+// Create component (called Header) with inline template/code
+ng generate component Header --inline-template
+
+// Add Bootstrap
+npm install bootstrap --save
+npm install jquery --save
+npm install popper.js --save
+
+(In angular.json)
+    "styles": [
+        "node_modules/bootstrap/dist/css/bootstrap.min.css",
+        "src/styles.css"
+      ],
+      "scripts": [
+          "node_modules/jquery/dist/jquery.min.js",
+          "node_modules/bootstrap/dist/js/bootstrap.min.js"
+      ]
 
